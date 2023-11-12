@@ -55,12 +55,14 @@ def poscar2df_coords(filename="./POSCAR"):
 
     
 
-def nnlist2df(POSCAR_nnlist='POSCAR.nnlist'): 
+def nnlist2df(POSCAR_nnlist): 
+# def nnlist2df(POSCAR_nnlist='POSCAR.nnlist'): 
     
     # CSVファイルに書き込むためのファイルを作成
     output_csv_fname = POSCAR_nnlist + '.csv'
     
-    def nnlist2csv(POSCAR_nnlist='POSCAR.nnlist'):
+    def nnlist2csv(POSCAR_nnlist):
+    # def nnlist2csv(POSCAR_nnlist='POSCAR.nnlist'):
         # テキストファイルの内容を読み込みます
         with open(POSCAR_nnlist, 'r') as input_file:
             lines = input_file.readlines()
