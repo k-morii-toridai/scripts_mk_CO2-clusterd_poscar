@@ -1,0 +1,6 @@
+how to use:
+python3 do_mk_CO3-clusterd_poscar.py.py <CO3_contained_poscar_folder_abs_path_list.npyのパス>
+
+
+example:
+python3 do_mk_CO3-clusterd_poscar.py.py /mnt/ssd_elecom_black_c2c/scripts_get_CO3-contained_poscar_folder_abs_path_list/CO3_contained_poscar_folder_abs_path_list.npy
